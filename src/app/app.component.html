@@ -1,5 +1,5 @@
-<mat-checkbox>Check me!</mat-checkbox>
-<button mat-button>Click me!</button>
+<mat-checkbox>Check me!</mat-checkbox><br><br>
+<button mat-raised-button>Click me!</button>
 
 <hr>
 <i class="material-icons">
@@ -40,4 +40,19 @@
   tag_faces
 </i>
 
+<hr>
+<!-- start/center/end/space-around/space-between/space-evenly -->
+<div class="my-container" fxLayout="column" fxLayoutAlign="space-around center">
+  <div class="my-box">20</div>
+  <div class="my-box">10</div>
+  <div class="my-box">30</div>
+  <div class="my-box">---</div>
+</div>
 
+<hr>
+<div class="my-container" fxLayout="column" fxLayoutAlign="space-around center">
+  <div class="my-box" fxFlex="20">20</div>
+  <div class="my-box" fxFlex="10">10</div>
+  <div class="my-box" fxFlex="30">30</div>
+  <div class="my-box" fxFlex>---</div>
+</div>
