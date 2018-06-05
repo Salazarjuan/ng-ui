@@ -1,0 +1,18 @@
+// Variables
+$size: 28px;
+
+.ui-test-sass {
+    font-size: $size;
+
+    h1 {
+        color: red;
+    }
+
+    p {
+        color: green;
+
+        span {
+            color: magenta;
+        }
+    }
+}

@@ -6,6 +6,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatCardModule} from '@angular/material/card';
 import { UiTestComponent } from './ui-test/ui-test.component';
 import { UiTestCardComponent } from './ui-test-card/ui-test-card.component';
+import { UiTestSassComponent } from './ui-test-sass/ui-test-sass.component';
 
 @NgModule({
   imports: [
@@ -15,10 +16,11 @@ import { UiTestCardComponent } from './ui-test-card/ui-test-card.component';
     MatButtonModule, MatCheckboxModule,
     MatCardModule
   ],
-  declarations: [UiTestComponent, UiTestCardComponent],
+  declarations: [UiTestComponent, UiTestCardComponent, UiTestSassComponent],
   exports: [
     UiTestComponent,
-    UiTestCardComponent
+    UiTestCardComponent,
+    UiTestSassComponent
   ]
 })
 export class TestModule { }
